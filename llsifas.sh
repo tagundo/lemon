@@ -20,7 +20,7 @@ then
     exit
 elif [ $version = 0 ]
 then
-    curl -L https://github.com/tagundo/elichika/tree/main/bin/install.sh | bash
+    curl -L https://raw.githubusercontent.com/tagundo/elichika/refs/heads/main/bin/install.sh | bash
 elif [ $version = 1 ]
 then
     curl -L https://raw.githubusercontent.com/arina999999997/elichika/master/bin/install.sh | bash
