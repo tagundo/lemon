@@ -2,8 +2,6 @@
 clear
 echo "Henol, please select need version to install:"
 echo "0) "
-echo ""
-echo ""
 echo "Actual version:"
 echo "1) Latest (Slower, Stable, official contents of SIFAS only)"
 echo "2) Single Player (Slower, Stable, Support modding contents & Improvement)"
