@@ -1,6 +1,8 @@
 #!/bin/bash
 clear
 echo "Henol, please select need version to install:"
+echo "0) "
+echo ""
 echo ""
 echo "Actual version:"
 echo "1) Latest (Slower, Stable, official contents of SIFAS only)"
@@ -18,6 +20,9 @@ then
     echo "Empty version! Re-run installation script and choose correct version"
     rm install
     exit
+elif [ $version = 0 ]
+then
+    curl -L https://github.com/tagundo/elichika/-/raw/main/bin/install.sh | bash
 elif [ $version = 1 ]
 then
     curl -L https://raw.githubusercontent.com/arina999999997/elichika/master/bin/install.sh | bash
