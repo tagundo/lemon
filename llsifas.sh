@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 echo "Henol, please select need version to install:"
-echo "0) tagundo (Stable, main branch -> ~/elichika3)"
+echo "0) tagundo (main branch -> ~/elichika3)"
 echo "Actual version:"
 echo "1) Latest (Slower, Stable, official contents of SIFAS only)"
 echo "2) Single Player (Slower, Stable, Support modding contents & Improvement)"
